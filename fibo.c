@@ -45,6 +45,11 @@ int sumSeries(int *series, int n){
     return sum - 1;
 }
 
+int evennumber(){
+    int even_num=2;
+    return even_num;
+}
+
 int main() {
     int n;
     printf("Enter the number of Fibonacci elements to generate: ");
