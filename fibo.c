@@ -38,11 +38,11 @@ int sumSeries(int *series, int n){
 
     int sum = 0;
 
-    for (int i=2;i<n;i++){
+    for (int i=2;i<n+1;i++){
         sum += series[i];
     }
 
-    return sum - 1;
+    return sum;
 }
 
 int evennumber(){
