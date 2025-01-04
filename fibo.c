@@ -29,6 +29,11 @@ void generateFibonacciSeries(int n) {
     printf("\n");
 }
 
+int evennumber(){
+    int even_num=2;
+    return even_num;
+}
+
 int main() {
     int n;
     printf("Enter the number of Fibonacci elements to generate: ");
