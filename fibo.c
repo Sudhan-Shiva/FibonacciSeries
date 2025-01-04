@@ -31,6 +31,27 @@ void getOddNumbers(int n, int fibonacci_series[]) {
     printf("\n");
 }
 
+int sumSeries(int *series, int n){
+    /*A function to return the bug sum of the 
+    series - always 1 less than the expected sum*/
+
+    //args = series (array containing the terms)
+    //n = size of the series
+
+    int sum = 0;
+
+    for (int i=2;i<n+1;i++){
+        sum += series[i];
+    }
+
+    return sum;
+}
+
+int evennumber(){
+    int even_num=2;
+    return even_num;
+}
+
 void ODDD(int n, int fibonacci_series[]) {
     printf("Odd Fibonacci Numbers: ");
     
