@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\C#_Assignments\\ExpenseTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|f:\\c#_assignments\\expensetracker\\expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|f:\\c#_assignments\\expensetracker\\expensetracker\\userdetails\\logincredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\userdetails\\logincredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|f:\\c#_assignments\\expensetracker\\expensetracker\\validinput\\passwordvalidation\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\validinput\\passwordvalidation\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|f:\\c#_assignments\\expensetracker\\expensetracker\\validinput\\passwordvalidation\\passwordconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\validinput\\passwordvalidation\\passwordconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|f:\\c#_assignments\\expensetracker\\expensetracker\\userdetails\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\userdetails\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|f:\\c#_assignments\\expensetracker\\expensetracker\\calculatetotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\calculatetotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|f:\\c#_assignments\\expensetracker\\expensetracker\\applicationfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\applicationfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|f:\\c#_assignments\\expensetracker\\expensetracker\\validinput\\datavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A94B6D9-DC3C-4087-AD9B-F97FF9CC60CB}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\validinput\\datavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordConditions.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\ValidInput\\PasswordValidation\\PasswordConditions.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\ValidInput\\PasswordValidation\\PasswordConditions.cs",
+              "ToolTip": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\ValidInput\\PasswordValidation\\PasswordConditions.cs",
+              "RelativeToolTip": "ExpenseTracker\\ValidInput\\PasswordValidation\\PasswordConditions.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:48:02.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordValidator.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\ValidInput\\PasswordValidation\\PasswordValidator.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\ValidInput\\PasswordValidation\\PasswordValidator.cs",
+              "ToolTip": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\ValidInput\\PasswordValidation\\PasswordValidator.cs",
+              "RelativeToolTip": "ExpenseTracker\\ValidInput\\PasswordValidation\\PasswordValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:39:55.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginCredentials.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\UserDetails\\LoginCredentials.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\UserDetails\\LoginCredentials.cs",
+              "ToolTip": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\UserDetails\\LoginCredentials.cs",
+              "RelativeToolTip": "ExpenseTracker\\UserDetails\\LoginCredentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:05:07.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\Program.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Program.cs",
+              "ToolTip": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\Program.cs",
+              "RelativeToolTip": "ExpenseTracker\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:47:12.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\UserDetails\\Transaction.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\UserDetails\\Transaction.cs",
+              "ToolTip": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\UserDetails\\Transaction.cs",
+              "RelativeToolTip": "ExpenseTracker\\UserDetails\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:47:54.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CalculateTotal.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\CalculateTotal.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\CalculateTotal.cs",
+              "ToolTip": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\CalculateTotal.cs",
+              "RelativeToolTip": "ExpenseTracker\\CalculateTotal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T11:40:07.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationFunctions.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\ApplicationFunctions.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\ApplicationFunctions.cs",
+              "ToolTip": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\ApplicationFunctions.cs",
+              "RelativeToolTip": "ExpenseTracker\\ApplicationFunctions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T08:25:56.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataValidation.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\ValidInput\\DataValidation.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\ValidInput\\DataValidation.cs",
+              "ToolTip": "F:\\C#_Assignments\\ExpenseTracker\\ExpenseTracker\\ValidInput\\DataValidation.cs",
+              "RelativeToolTip": "ExpenseTracker\\ValidInput\\DataValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:09:01.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
