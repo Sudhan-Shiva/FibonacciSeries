@@ -1,4 +1,4 @@
-﻿namespace ExpenseTracker.ValidInput.PasswordValidation
+﻿namespace ExpenseTracker.DataValidation.PasswordValidation
 {
     public class Conditions
     {

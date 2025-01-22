@@ -2,7 +2,7 @@
 
 public class CalculateTotal
 {
-    public static int CalculateTotalIncome(List<Transaction> TrackerList, int toCalculate)
+    public static void CalculateTotalTransactionAmount(List<Transaction> TrackerList)
     {
         int TotalIncome = 0;
         int TotalExpense = 0;
@@ -17,17 +17,8 @@ public class CalculateTotal
                 TotalExpense += transaction.Amount;
             }
         }
-        if (toCalculate == 0)
-        {
-            return TotalIncome;
-        }
-        else if (toCalculate == 1)
-        {
-            return TotalExpense;
-        }
-        else
-        {
-            return (TotalIncome - TotalExpense);
-        }
+        Console.WriteLine("Total Income  : "+ TotalIncome);
+        Console.WriteLine("Total Expense : "+ TotalExpense);
+        Console.WriteLine("Net Balance   : " + (TotalIncome - TotalExpense));
     }
 }
