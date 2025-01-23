@@ -13,3 +13,7 @@ F:\C#_Assignments\InventoryManager\InventoryManager\obj\Debug\net8.0\refint\Inve
 F:\C#_Assignments\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.pdb
 F:\C#_Assignments\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.genruntimeconfig.cache
 F:\C#_Assignments\InventoryManager\InventoryManager\obj\Debug\net8.0\ref\InventoryManager.dll
+F:\C#_Assignments\InventoryManager\InventoryManager\bin\Debug\net8.0\ConsoleTables.dll
+F:\C#_Assignments\InventoryManager\InventoryManager\bin\Debug\net8.0\Wcwidth.dll
+F:\C#_Assignments\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.csproj.AssemblyReference.cache
+F:\C#_Assignments\InventoryManager\InventoryManager\obj\Debug\net8.0\Inventor.C89416D4.Up2Date

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "F:\\C#_Assignments\\InventoryManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\utility\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\utility\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\userinterface\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\userinterface\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\utility\\applicationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\utility\\applicationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\userinterface\\outputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\userinterface\\outputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\datavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\datavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\uniqueinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\uniqueinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\indexsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\indexsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\c#_assignments\\inventorymanager\\inventorymanager\\validinput\\datavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\validinput\\datavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +38,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IndexSearch.cs",
-              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\IndexSearch.cs",
-              "RelativeDocumentMoniker": "InventoryManager\\IndexSearch.cs",
-              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\IndexSearch.cs",
-              "RelativeToolTip": "InventoryManager\\IndexSearch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T13:23:48.133Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UniqueInformation.cs",
-              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\UniqueInformation.cs",
-              "RelativeDocumentMoniker": "InventoryManager\\UniqueInformation.cs",
-              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\UniqueInformation.cs*",
-              "RelativeToolTip": "InventoryManager\\UniqueInformation.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Utility\\ProductManager.cs",
+              "RelativeDocumentMoniker": "InventoryManager\\Utility\\ProductManager.cs",
+              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Utility\\ProductManager.cs",
+              "RelativeToolTip": "InventoryManager\\Utility\\ProductManager.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAYwKkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T11:01:45.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataValidation.cs",
-              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\DataValidation.cs",
-              "RelativeDocumentMoniker": "InventoryManager\\DataValidation.cs",
-              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\DataValidation.cs",
-              "RelativeToolTip": "InventoryManager\\DataValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T10:50:09.754Z",
+              "WhenOpened": "2025-01-21T03:42:07.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Product.cs",
-              "RelativeDocumentMoniker": "InventoryManager\\Product.cs",
-              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Product.cs",
-              "RelativeToolTip": "InventoryManager\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\UserInterface\\InputManager.cs",
+              "RelativeDocumentMoniker": "InventoryManager\\UserInterface\\InputManager.cs",
+              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\UserInterface\\InputManager.cs",
+              "RelativeToolTip": "InventoryManager\\UserInterface\\InputManager.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAtwHQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T10:44:43.735Z",
+              "WhenOpened": "2025-01-21T03:33:54.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ApplicationFunction.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Utility\\ApplicationFunction.cs",
+              "RelativeDocumentMoniker": "InventoryManager\\Utility\\ApplicationFunction.cs",
+              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Utility\\ApplicationFunction.cs",
+              "RelativeToolTip": "InventoryManager\\Utility\\ApplicationFunction.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwDIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:22:30.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Program.cs",
               "RelativeDocumentMoniker": "InventoryManager\\Program.cs",
               "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Program.cs",
               "RelativeToolTip": "InventoryManager\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAG4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T10:04:54.15Z",
+              "WhenOpened": "2025-01-21T11:22:35.683Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OutputManager.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\UserInterface\\OutputManager.cs",
+              "RelativeDocumentMoniker": "InventoryManager\\UserInterface\\OutputManager.cs",
+              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\UserInterface\\OutputManager.cs",
+              "RelativeToolTip": "InventoryManager\\UserInterface\\OutputManager.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAApwEwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:50:23.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "InventoryManager\\Model\\Product.cs",
+              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\Model\\Product.cs",
+              "RelativeToolTip": "InventoryManager\\Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T03:23:25.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataValidation.cs",
+              "DocumentMoniker": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\ValidInput\\DataValidation.cs",
+              "RelativeDocumentMoniker": "InventoryManager\\ValidInput\\DataValidation.cs",
+              "ToolTip": "F:\\C#_Assignments\\InventoryManager\\InventoryManager\\ValidInput\\DataValidation.cs",
+              "RelativeToolTip": "InventoryManager\\ValidInput\\DataValidation.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T03:20:21.451Z"
             }
           ]
         }
