@@ -10,12 +10,13 @@ namespace ExpenseTracker.Utility.TransactionUtility
         public static void UserTransactionInterface(List<List<Transaction>> trackerList, List<LoginCredentials> loginCredentialsList, int userLoginIndex)
         {
             LoginCredentialsOperations loginCredentialsOperations = new LoginCredentialsOperations();
-            Console.WriteLine("\n[1]View all previous transaction\n[2] Add new transcation\n[3] Delete older transaction\n[4] Edit Older transaction\n[5] Search the Tracker List\n[6] View Transacton Summary\n[7] Exit ");
-            Console.Write("Select the action to be performed :");
-            string userAction = Console.ReadLine();
+            string userAction;
             TransactionOperations applicationFeatures = new TransactionOperations();
             do
             {
+                Console.WriteLine("\n[1]View all previous transaction\n[2] Add new transcation\n[3] Delete older transaction\n[4] Edit Older transaction\n[5] Search the Tracker List\n[6] View Transacton Summary\n[7] Exit ");
+                Console.Write("Select the action to be performed :");
+                userAction = Console.ReadLine();
                 switch (userAction)
                 {
                     //case "1":
@@ -23,7 +24,7 @@ namespace ExpenseTracker.Utility.TransactionUtility
                     //    break;
                     case "2":
                         applicationFeatures.TransactionAddition(userLoginIndex);
-                        applicationFeatures.FileHandling();
+
                         break;
                     case "3":
                         applicationFeatures.TransactionDeletion(userLoginIndex);
@@ -34,20 +35,18 @@ namespace ExpenseTracker.Utility.TransactionUtility
                     case "5":
                         applicationFeatures.TransactionSearch(userLoginIndex);
                         break;
-                    //case "6":
-                    //    applicationFeatures.TransactionSummary(userLoginIndex);
+                        //case "6":
+                        //    applicationFeatures.TransactionSummary(userLoginIndex);
                         break;
                     case "7":
-
+                        applicationFeatures.SaveTransactionsToFile("Transactionsss.json");
+                        applicationFeatures.FileHandling();
                         loginCredentialsOperations.CheckNewUser(loginCredentialsList);
                         break;
                     default:
                         UserTransactionInterface(trackerList, loginCredentialsList, userLoginIndex);
                         break;
                 }
-                Console.WriteLine("\n[1]View all previous transaction\n[2] Add new transcation\n[3] Delete older transaction\n[4] Edit Older transaction\n[5] Search the Tracker List\n[6] View Transacton Summary\n[7] Exit ");
-                Console.Write("Select the action to be performed :");
-                userAction = Console.ReadLine();
             } while (userAction != "7");
         }
     }

@@ -1,0 +1,19 @@
+[
+  [
+    {
+      "$type": "ExpenseTracker.Model.Income, ExpenseTracker",
+      "Source": "hdhjh",
+      "Type": "INCOME",
+      "Amount": 1,
+      "DateOfTransaction": "2001-01-01"
+    },
+    {
+      "$type": "ExpenseTracker.Model.Expense, ExpenseTracker",
+      "Category": "hbc",
+      "Type": "EXPENSE",
+      "Amount": 3,
+      "DateOfTransaction": "2002-02-02"
+    }
+  ],
+  []
+]

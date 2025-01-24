@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WtcFrKwPA0g=",
+  "success": true,
+  "projectFilePath": "F:\\Dummy Assignments\\Assgn 4 - ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sudhan.shiva\\.nuget\\packages\\consoletables\\2.6.2\\consoletables.2.6.2.nupkg.sha512",
+    "C:\\Users\\sudhan.shiva\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\sudhan.shiva\\.nuget\\packages\\wcwidth\\1.0.0\\wcwidth.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
