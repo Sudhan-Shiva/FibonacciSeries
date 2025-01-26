@@ -17,3 +17,22 @@ F:\C#_Assignments\InventoryManager\InventoryManager\bin\Debug\net8.0\ConsoleTabl
 F:\C#_Assignments\InventoryManager\InventoryManager\bin\Debug\net8.0\Wcwidth.dll
 F:\C#_Assignments\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.csproj.AssemblyReference.cache
 F:\C#_Assignments\InventoryManager\InventoryManager\obj\Debug\net8.0\Inventor.C89416D4.Up2Date
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\bin\Debug\net8.0\InventoryManager.exe
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\bin\Debug\net8.0\InventoryManager.deps.json
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\bin\Debug\net8.0\InventoryManager.runtimeconfig.json
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\bin\Debug\net8.0\InventoryManager.dll
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\bin\Debug\net8.0\InventoryManager.pdb
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\bin\Debug\net8.0\ConsoleTables.dll
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\bin\Debug\net8.0\Wcwidth.dll
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.csproj.AssemblyReference.cache
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.AssemblyInfoInputs.cache
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.AssemblyInfo.cs
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.csproj.CoreCompileInputs.cache
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.sourcelink.json
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\Inventor.C89416D4.Up2Date
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.dll
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\refint\InventoryManager.dll
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.pdb
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\InventoryManager.genruntimeconfig.cache
+F:\Dummy Assignments\FibonacciSeries\InventoryManager\InventoryManager\obj\Debug\net8.0\ref\InventoryManager.dll
