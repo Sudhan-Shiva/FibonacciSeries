@@ -29,7 +29,7 @@ namespace InventoryManager.Utility
         /// To check if the product list is empty
         /// </summary>
         /// <returns>True if the product list is empty, else false</returns>
-        public bool IsListEmpty()
+        private bool IsListEmpty()
         {
             return (_productList.Count == 0);
         }
@@ -37,58 +37,68 @@ namespace InventoryManager.Utility
         /// <summary>
         /// Returns the index of the product from the product list
         /// </summary>
-        /// <param name="inputParameter">The product name/ID whose information must be stored</param>
-        /// <param name="isProductName">Represents whether the input parameter to locate the product is name</param>
+        /// <param name="inputProductName">The product name whose information must be stored</param>
         /// <returns>The index of the matched product</returns>
-        public int ReturnIndex(string inputParameter, bool isProductName)
+        private int ReturnIndexWithName(string inputProductName)
         {
-            if (isProductName)
-            {
-                return _productList.FindIndex(x => x.ProductName == inputParameter);
-            }
-            else
-            {
-                return _productList.FindIndex(x => x.ProductId == inputManager.GetValidInteger(inputParameter));
-            }
+            return _productList.FindIndex(x => x.ProductName == inputProductName);
         }
 
+        /// <summary>
+        /// Returns the index of the product from the product list
+        /// </summary>
+        /// <param name="inputProductId">The product ID whose information must be stored</param>
+        /// <returns>The index of the matched product</returns>
+        private int ReturnIndexWithId(int inputProductId)
+        {
+            return _productList.FindIndex(x => x.ProductId == inputProductId);       
+        }
         /// <summary>
         /// To check whether the input string is contained in any of the product name
         /// </summary>
         /// <param name="inputForSearchProductName">The input string which is to be checked</param>
         /// <returns>True if any product name contains the input string, else false</returns>
-        public bool IsContainingProductName(string inputForSearchProductName)
+        private bool IsContainingProductName(string inputForSearchProductName)
         {
             bool isSearchPresent = false;
             foreach (Product searchproduct in _productList)
             {
                 if (searchproduct.ProductName.Contains(inputForSearchProductName))
                 {
-                    outputManager.SpecificProductInformation(_productList, ReturnValidIndex(searchproduct.ProductName, true));
+                    outputManager.SpecificProductInformation(_productList, ReturnValidIndex(searchproduct.ProductName));
                     isSearchPresent = true;
                 }
             }
             return isSearchPresent;
         }
 
-        public int ReturnValidIndex(string viewProduct, bool isProductName)
+        private int ReturnValidIndex(string viewProduct)
         {
-            int printIndex = ReturnIndex(viewProduct, isProductName);
+            int printIndex = ReturnIndexWithName(viewProduct);
             while (printIndex == -1)
             {
                 viewProduct = inputManager.ReplaceInvalidInput();
-                printIndex = ReturnIndex(viewProduct, isProductName);
+                printIndex = ReturnIndexWithName(viewProduct);
             }
             return printIndex;
         }
 
-        public string GetDistinctInputs(string inputParameter, bool isProductName)
+        private string GetDistinctProductName(string inputProductName)
         {
-            while (ReturnIndex(inputParameter, isProductName) != -1)
+            while (ReturnIndexWithName(inputProductName) != -1)
             {
-                inputParameter = inputManager.GetUniqueInput();
+                inputProductName = inputManager.GetUniqueProductName();
             }
-            return inputParameter;
+            return inputProductName;
+        }
+
+        private int GetDistinctProductId(int inputProductId)
+        {
+            while (ReturnIndexWithId(inputProductId) != -1)
+            {
+                inputProductId = inputManager.GetUniqueProductId();
+            }
+            return inputProductId;
         }
 
         /// <summary>
@@ -97,13 +107,13 @@ namespace InventoryManager.Utility
         public void AddProduct()
         {
             Product product = new Product();
-            product.ProductName = GetDistinctInputs(inputManager.GetProductName(), true);
-            product.ProductId = inputManager.GetValidInteger(GetDistinctInputs(inputManager.GetProductId(), false));
+            product.ProductName = GetDistinctProductName(inputManager.GetProductName());
+            product.ProductId = GetDistinctProductId(inputManager.GetProductId());
             product.ProductPrice = inputManager.GetProductPrice();
             product.ProductQuantity = inputManager.GetProductQuantity();
             _productList.Add(product);
             OutputManager.PrintSuccessfulAddition();
-            outputManager.SpecificProductInformation(_productList, ReturnValidIndex(product.ProductName, true));
+            outputManager.SpecificProductInformation(_productList, ReturnValidIndex(product.ProductName));
         }
 
         /// <summary>
@@ -114,7 +124,7 @@ namespace InventoryManager.Utility
             if (!IsListEmpty())
             {
                 string deleteChoice = inputManager.GetProductName();
-                int deleteIndex = ReturnIndex(deleteChoice, true);
+                int deleteIndex = ReturnIndexWithName(deleteChoice);
                 if (deleteIndex == -1)
                 {
                     OutputManager.PrintNoMatches();
@@ -139,7 +149,7 @@ namespace InventoryManager.Utility
             if (!IsListEmpty())
             {
                 string editChoice = inputManager.GetProductName();
-                int editIndex = ReturnIndex(editChoice, true);
+                int editIndex = ReturnIndexWithName(editChoice);
                 string newProductName = editChoice;
                 if (editIndex == -1)
                 { 
@@ -151,11 +161,11 @@ namespace InventoryManager.Utility
                     switch (userEditChoice)
                     {
                         case UserEditChoice.EditProductName:
-                            newProductName = GetDistinctInputs(inputManager.GetValidInput(inputManager.GetProductName()), true);
+                            newProductName = GetDistinctProductName(inputManager.GetProductName());
                             _productList[editIndex].ProductName = newProductName;
                             break;
                         case UserEditChoice.EditProductId:
-                            _productList[editIndex].ProductId = inputManager.GetValidInteger(GetDistinctInputs(inputManager.GetProductId(), false));
+                            _productList[editIndex].ProductId = GetDistinctProductId(inputManager.GetProductId());
                             break;
                         case UserEditChoice.EditProductPrice:
                             _productList[editIndex].ProductPrice = inputManager.GetProductPrice();
@@ -241,8 +251,8 @@ namespace InventoryManager.Utility
                             isSearchPresent = IsContainingProductName(productNameHint);
                         break;
                         case NameOrIdChoice.ById:
-                            string productIdHint = inputManager.GetProductId();
-                            int searchIndex = ReturnIndex(productIdHint, false);
+                            int productIdHint = inputManager.GetProductId();
+                            int searchIndex = ReturnIndexWithId(productIdHint);
                             if (searchIndex == -1)
                             { break; }
                             else

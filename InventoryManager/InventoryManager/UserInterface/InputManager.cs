@@ -20,8 +20,7 @@ namespace InventoryManager.UserInterface
         /// <returns>The user choice</returns>
         public int GetUserOptions()
         {
-            Console.WriteLine("\nHello!\nWhat do you want to do?\n[0] View the Product List\n[1] Add new Product\n[2] Delete the Product\n[3] Modify the Product List\n[4] Search the Product List\n[5] QuickSort the Product List\n[6] Exit the Product List\n");
-            Console.Write("Type your Choice: ");
+            Console.Write("\nHello!\nWhat do you want to do?\n[0] View the Product List\n[1] Add new Product\n[2] Delete the Product\n[3] Modify the Product List\n[4] Search the Product List\n[5] QuickSort the Product List\n[6] Exit the Product List\nType your Choice: ");
             return GetChoiceWithinBounds(6);
         }
 
@@ -29,11 +28,22 @@ namespace InventoryManager.UserInterface
         /// To get another input when the given input is already present
         /// </summary>
         /// <returns>The input for replacing the present input</returns>
-        public string GetUniqueInput()
+        public string GetUniqueProductName()
         {
-            Console.Write("The Product Field is Already Present !\nGive a new Field : ");
-            string inputParameter = Console.ReadLine();
-            return inputParameter;
+            Console.Write("The Product Name is Already Present !\nGive a new Product name : ");
+            string inputProductName = Console.ReadLine();
+            return inputProductName;
+        }
+
+        /// <summary>
+        /// To get another input when the given input is already present
+        /// </summary>
+        /// <returns>The input for replacing the present input</returns>
+        public int GetUniqueProductId()
+        {
+            Console.Write("The Product ID is Already Present !\nGive a new Product ID : ");
+            int inputProductId = GetValidInteger(Console.ReadLine());
+            return inputProductId;
         }
 
         /// <summary>
@@ -73,11 +83,11 @@ namespace InventoryManager.UserInterface
         /// To get the product ID
         /// </summary>
         /// <returns>The ID of the product</returns>
-        public string GetProductId()
+        public int GetProductId()
         {
             Console.Write("Enter the Product ID :  ");
             string productId = Console.ReadLine();
-            return GetValidInput(productId);
+            return GetValidInteger(GetValidInput(productId));
         }
 
         /// <summary>
@@ -108,12 +118,11 @@ namespace InventoryManager.UserInterface
         /// <returns>String representing the field that must be edited</returns>
         public int GetEditField()
         {
-            Console.WriteLine("Choose the Information that must be edited : \n[0] Name of the Product \n[1] ID of the Product \n[2] Price of the Product \n[3] Quantity of the product \n");
-            Console.Write("Type your Choice: ");
+            Console.Write("Choose the Information that must be edited : \n[0] Name of the Product \n[1] ID of the Product \n[2] Price of the Product \n[3] Quantity of the product \nType your Choice: ");
             return GetChoiceWithinBounds(3);
         }
 
-        public int GetChoiceWithinBounds(int maxEnumLength)
+        private int GetChoiceWithinBounds(int maxEnumLength)
         {
             int enumChoice = GetValidInteger(Console.ReadLine());
             while (enumChoice < 0 || enumChoice > maxEnumLength)
@@ -137,7 +146,7 @@ namespace InventoryManager.UserInterface
         /// </summary>
         /// <param name="inputParameter">The input that is validated</param>
         /// <returns>A valid input which is not null or empty string</returns>
-        public string GetValidInput(string inputParameter)
+        private string GetValidInput(string inputParameter)
         {
             while (dataValidation.IsDataEmpty(inputParameter))
             {
@@ -166,7 +175,7 @@ namespace InventoryManager.UserInterface
         /// </summary>
         /// <param name="inputParameter">The input that is validated for the datatype</param>
         /// <returns>A valid input which is decimal</returns>
-        public decimal GetValidDecimal(string inputParameter)
+        private decimal GetValidDecimal(string inputParameter)
         {
             while (!dataValidation.IsInputDecimal(inputParameter))
             {

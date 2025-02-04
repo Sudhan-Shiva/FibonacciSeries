@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F838EA4-73D2-48C0-AE36-6B517CE92946}|InventoryManagerTests\\InventoryManagerTests.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanagertests\\inputmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F838EA4-73D2-48C0-AE36-6B517CE92946}|InventoryManagerTests\\InventoryManagerTests.csproj|solutionrelative:inventorymanagertests\\inputmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F838EA4-73D2-48C0-AE36-6B517CE92946}|InventoryManagerTests\\InventoryManagerTests.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanagertests\\datavalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F838EA4-73D2-48C0-AE36-6B517CE92946}|InventoryManagerTests\\InventoryManagerTests.csproj|solutionrelative:inventorymanagertests\\datavalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\utility\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\utility\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\userinterface\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +15,28 @@
       "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\userinterface\\outputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F838EA4-73D2-48C0-AE36-6B517CE92946}|InventoryManagerTests\\InventoryManagerTests.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanagertests\\inputmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F838EA4-73D2-48C0-AE36-6B517CE92946}|InventoryManagerTests\\InventoryManagerTests.csproj|solutionrelative:inventorymanagertests\\inputmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\utility\\applicationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\utility\\applicationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\inputvalidation\\datavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\inputvalidation\\datavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F838EA4-73D2-48C0-AE36-6B517CE92946}|InventoryManagerTests\\InventoryManagerTests.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanagertests\\datavalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F838EA4-73D2-48C0-AE36-6B517CE92946}|InventoryManagerTests\\InventoryManagerTests.csproj|solutionrelative:inventorymanagertests\\datavalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\model\\contents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\model\\contents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\utility\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\utility\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\utility\\applicationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|solutionrelative:inventorymanager\\utility\\applicationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{655A964A-E88F-47F5-8181-D4DF92477AA9}|InventoryManager\\InventoryManager.csproj|f:\\dummy assignments\\fibonacciseries\\inventorymanager\\inventorymanager\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,20 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "InputManagerTests.cs",
               "DocumentMoniker": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManagerTests\\InputManagerTests.cs",
               "RelativeDocumentMoniker": "InventoryManagerTests\\InputManagerTests.cs",
               "ToolTip": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManagerTests\\InputManagerTests.cs",
               "RelativeToolTip": "InventoryManagerTests\\InputManagerTests.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAD4v2wAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T06:03:37.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DataValidationTests.cs",
               "DocumentMoniker": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManagerTests\\DataValidationTests.cs",
               "RelativeDocumentMoniker": "InventoryManagerTests\\DataValidationTests.cs",
@@ -83,24 +83,24 @@
               "RelativeToolTip": "InventoryManagerTests\\DataValidationTests.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwBYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T10:42:58.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T10:42:58.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ProductManager.cs",
               "DocumentMoniker": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\Utility\\ProductManager.cs",
               "RelativeDocumentMoniker": "InventoryManager\\Utility\\ProductManager.cs",
               "ToolTip": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\Utility\\ProductManager.cs",
               "RelativeToolTip": "InventoryManager\\Utility\\ProductManager.cs",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAkwOwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAMwKAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T03:42:07.414Z"
+              "WhenOpened": "2025-01-21T03:42:07.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Contents.cs",
               "DocumentMoniker": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\Model\\Contents.cs",
               "RelativeDocumentMoniker": "InventoryManager\\Model\\Contents.cs",
@@ -112,20 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "InputManager.cs",
               "DocumentMoniker": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\UserInterface\\InputManager.cs",
               "RelativeDocumentMoniker": "InventoryManager\\UserInterface\\InputManager.cs",
               "ToolTip": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\UserInterface\\InputManager.cs",
               "RelativeToolTip": "InventoryManager\\UserInterface\\InputManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T03:33:54.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "ApplicationFunction.cs",
               "DocumentMoniker": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\Utility\\ApplicationFunction.cs",
               "RelativeDocumentMoniker": "InventoryManager\\Utility\\ApplicationFunction.cs",
@@ -133,11 +133,12 @@
               "RelativeToolTip": "InventoryManager\\Utility\\ApplicationFunction.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T11:22:30.55Z"
+              "WhenOpened": "2025-01-21T11:22:30.55Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\Program.cs",
               "RelativeDocumentMoniker": "InventoryManager\\Program.cs",
@@ -145,18 +146,17 @@
               "RelativeToolTip": "InventoryManager\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T11:22:35.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T11:22:35.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "OutputManager.cs",
               "DocumentMoniker": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\UserInterface\\OutputManager.cs",
               "RelativeDocumentMoniker": "InventoryManager\\UserInterface\\OutputManager.cs",
               "ToolTip": "F:\\Dummy Assignments\\FibonacciSeries\\InventoryManager\\InventoryManager\\UserInterface\\OutputManager.cs",
               "RelativeToolTip": "InventoryManager\\UserInterface\\OutputManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T04:50:23.498Z",
               "EditorCaption": ""
@@ -171,8 +171,7 @@
               "RelativeToolTip": "InventoryManager\\Model\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T03:23:25.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T03:23:25.518Z"
             },
             {
               "$type": "Document",
