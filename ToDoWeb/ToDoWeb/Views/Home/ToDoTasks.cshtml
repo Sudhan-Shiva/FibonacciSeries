@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Tasks";
+}
+
+@model List<ToDoTask>
+
+<div class="text-center">
+    <h1 class="display-4">Tasks</h1>
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Heading
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Recurrence
+                </th>
+                <th>
+                    TargetDate
+                </th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @{
+                foreach(var task in Model)
+                {
+                    <tr>
+                        <td>
+                            @task.Heading
+                        </td>
+                        <td>
+                            @task.Description
+                        </td>
+                        <td>
+                            @task.Recurrence
+                        </td>
+                        <td>
+                            @task.TargetDate
+                        </td>
+                        <td>
+                        <a asp-action="CrudOperations" asp-route-id = "@task.Id" >Edit</a>
+                        <a asp-action="Delete">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "CrudOperations";
+}
+
+@model ToDoWeb.Models.ToDoTask
+<div class="text-center">
+    <h1 class="display-4">CrudOperations</h1>
+</div>
+
+<form asp-action="CrudOperationsForm">
+    <label>Heading</label>
+    <input class=" form-control" type ="text" placeholder="Add a Heading" asp-for="Heading" />
+
+    <label class="mt-4">Description</label>
+    <input class=" form-control" type="text" placeholder="Add a Description" asp-for="Description" />
+
+    <label class="mt-4">Recurrence</label>
+    <select class="form-control" type="text" asp-for="Recurrence">
+        <option value="None">None</option>
+        <option value="Weekly">Weekly</option>
+        <option value="Monthly">Monthly</option>
+        <option value="Yearly">Yearly</option>
+    </select>
+
+    <label class="mt-4">TargetDate</label>
+    <input class=" form-control" type="date" placeholder="DD/MM/YYYY" asp-for="TargetDate" />
+
+    <button class=" btn btn-primary mt-4" type ="submit">Ok</button>
+</form>
