@@ -1,13 +1,10 @@
 CXX = g++
-
 CXXFLAGS = -Wall -std=c++14
  
 TARGET = ExceptionHandling
- 
 SRCDIR = src
 
-SRCS = $(wildcard $(SRCDIR)/Entity/*.cpp)
- 
+SRCS = $(wildcard $(SRCDIR)/Entity/*.cpp) $(wildcard $(SRCDIR)/*.cpp)
 OBJS = $(SRCS:.cpp=.o)
  
 all: $(TARGET) run

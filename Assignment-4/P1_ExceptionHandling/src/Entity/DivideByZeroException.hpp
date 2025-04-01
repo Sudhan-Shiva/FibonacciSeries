@@ -11,10 +11,15 @@ class Cdivide_by_zero_exception : public std::exception
         int m_ErrorCode;
         std::string m_ErrorMessage; 
     public:
-        Cdivide_by_zero_exception(int nErrorCode, std::string strErrorMessage) : m_ErrorCode(nErrorCode), m_ErrorMessage(std::move(strErrorMessage)) {};
+        Cdivide_by_zero_exception(const int &nErrorCode,const std::string &strErrorMessage) : m_ErrorCode(nErrorCode), m_ErrorMessage(std::move(strErrorMessage)) {};
         const char* what() const noexcept override
         {
-            return strcat(m_ErrorMessage.c_str(), std::to_string(m_ErrorCode).c_str());
+            return m_ErrorMessage.c_str();
+        }
+
+        int GetErrorCode()
+        {
+            return m_ErrorCode;
         }
 };
 

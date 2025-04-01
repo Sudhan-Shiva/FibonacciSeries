@@ -15,10 +15,10 @@ void GetInputInteger(int &nInputInteger,const std::string &strInputString)
 
 void GetOperator(char &chOperator)
 {
-    std::cout << "Enter the operation to be performed (+,-,*,/) : ";
-    while (!(std::cin >> chOperator) || !( chOperator == '+' || chOperator == '-' || chOperator == '*' || chOperator == '/') ) 
+    std::cout << "Enter the operation to be performed (+,-,*,/) [Press '~' to exit] : ";
+    while (!(std::cin >> chOperator) || !( chOperator == '+' || chOperator == '-' || chOperator == '*' || chOperator == '/' || chOperator == '~') ) 
     {
-        std::cout << "Invalid input. Please enter a valid operator (+,-,*,/) : ";
+        std::cout << "Invalid input. Please enter a valid operator (+,-,*,/) [Press '~' to exit] : ";
         std::cin.clear(); 
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
@@ -44,6 +44,8 @@ void PerformOperation(int &nResult, const int &nFirstOperand, const int &nSecond
             }
             nResult = nFirstOperand / nSecondOperand;
             break;
+        case ('~'):
+            break;
     }
 }
 
@@ -58,10 +60,14 @@ int main()
     try
     {
         PerformOperation(nResult, nFirstInteger, nSecondInteger, chOperator);
+        if(chOperator !=  '~')
+            std::cout << "The result is : " << nResult << std::endl ;
+        else
+            std::cout << "Exited Successfully...." << std::endl;
     }
-    catch(const std::exception& e)
+    catch(Cdivide_by_zero_exception &CaughtException)
     {
-        std::cerr << e.what() << '\n';
+        std::cout << CaughtException.what() << std::endl;
+        std::cout << "Error Code : " << CaughtException.GetErrorCode() << std::endl;
     }
-    std::cout << "The result is : " << nResult << std::endl ;
 }
