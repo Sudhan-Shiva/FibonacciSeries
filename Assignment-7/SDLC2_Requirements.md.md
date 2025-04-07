@@ -19,11 +19,10 @@
 ### <u>Employee Management System :
 * Only single instance of employee management is allowed at a time (`Singleton `design is used to ensure a single instance).
 ## CORE FEATURES 
-### <u>Login System
+### <u>1. Login System
 * For secure credentials, it is mandatory for the password to contain `special characters, numbers, small and capital case alphabets`.
 * Login option is launched where the user is asked to enter his/her corresponding username and password.
-* Data retention is used in this case to validate the credentials and allow the user to login.
-### <u>CRUD OPERATIONS
+### <u>2. CRUD OPERATIONS
 #### COMMON OPERATIONS : 
 **View Employees :**
 * The employees can be filtered according to category or position.
@@ -33,26 +32,30 @@
 * Any specific employee details (except salary) can be viewed by searching for their ID or by their position.
 #### ADMIN OPERATIONS  
 **Add Employee :**
-* Whenever a new employee is created by the management staff, a new file 
-`(Employee_ID.txt)` is created in the `docs` folder to store the employee details. 
-* The file consists of the employee password, category of the employee, name, position and salary.
-* Whenever a new employee is created, the management staff is prompted to enter these mandatory details.  
+* Whenever a new employee is created, the management staff is prompted to enter the mandatory details.  
 
 **Remove Employee :**
-* The employee is chosen by their ID and the management staff can remove the employee and the file specific to the employee is deleted.
+* The employee is chosen by their ID and the management staff can remove the employee.
 
 **Update Employee Details :**
 * The employee salary and position can be updated by the management staff.
-### <u>FILE LOGGING
+### <u>3. FILE LOGGING
 * Error codes are thrown based on the use case such as :
 1.  9000 – Creation of a duplicate instance of the Employee Management System.
 2.  9001 – Attempt to check or update hardware count for a non-hardware engineer.
 3.  9002 – Employee ID not found during search, update, or removal.
 4.  9003 – Unauthorized access attempt (failed login).
 
-* Whenever an error code is caught, it is logged on to a common file `Error_Logs` with the current date and time.
-* Other information such as a successful login attempt, addition and deletion of employee are logged into `Info_Logs` along with the date and time.
+* Whenever an error code is caught, it is logged on to a text file in the folder `Logs` with the error message and the current date and time.
+* Other information such as a successful login attempt, addition and deletion of employee are logged into the log file along with the date and time.
 * Whenever the log file reaches a predefined size limit `(1 MB)`, a new log file is created to store the consecutive log data.
+* Whenever multiple files are created and the `Logs` folder reaches a limit of `20 mb`, the five older files are deleted.
 
-
-
+## OPTIONAL FEATURES :
+### 1. DATA STORAGE :
+* Whenever a new employee is created by the management staff, a new file `(Employee_ID.txt)` is created in the `docs` folder to store the employee details. 
+* The file consists of the employee password, category of the employee, name, position and salary.
+* The password is encrypted and stored in the file.
+* This feature enables data persistence and ensures old users are able to login even after the application is re-opened.
+### 2. EMPLOYEE AUTHORITY :
+* Deletion of management staff can be performed only by those with a higher authority than the staff to be deleted.
