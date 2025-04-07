@@ -4,10 +4,10 @@
 
 ## SPECIFICATIONS
 ### <u>Segregation of Employees :
-**Employee** (Base Class)
-&rarr; Management Staff
-&rarr; Engineers (Base Class)
-&emsp;&emsp;&rarr; Hardware Engineer
+**Employee** (Base Class)  
+&rarr; Management Staff  
+&rarr; Engineers (Base Class)  
+&emsp;&emsp;&rarr; Hardware Engineer  
 &emsp;&emsp;&rarr; Software Engineer
 ### <u>Employee Properties :  
 1.  Employee ID -> int 
